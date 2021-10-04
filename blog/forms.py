@@ -12,10 +12,10 @@ class NameWidget(forms.MultiWidget):
          ], attrs)
 
      def decompress(self, value):
-         # firstvalue secondvalue
+         #firstvalue secondvalue
          if value:
              return value.split(' ')
-         return ['','']                 #ушул жакка жазсак,формада автомотический озу жазылып калат
+         return ['','']                #ушул жакка жазсак,формада автомотический озу жазылып калат
          #['first value', 'second value']
 
 class NameFiled(forms.MultiValueField):

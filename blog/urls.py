@@ -4,3 +4,4 @@ urlpatterns = [
     path('', views.contact),
     path('snippet', views.snippet_details)
 ]
+#.
