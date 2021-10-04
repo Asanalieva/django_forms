@@ -10,7 +10,7 @@ def contact(request):
             email = form.cleaned_data['email']
 
             print(name)
-    else: #TO work REGEX
+    else: #To work REGEX
         form = ContactForm()
 
     return render(request, 'form.html',{'form' : form})
